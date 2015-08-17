@@ -1,1 +1,0 @@
-Introduces public classes in this homework. Simple calculation of geometric surface areas.

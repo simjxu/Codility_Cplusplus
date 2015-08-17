@@ -1,1 +1,0 @@
-Simple program that calculates the pythagorean theorem

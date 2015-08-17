@@ -1,1 +1,0 @@
-Introduces inputing data from a file called "constants.dat". Calculating the amount of water saved.

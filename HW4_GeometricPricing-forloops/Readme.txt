@@ -1,1 +1,0 @@
-Introduces the concept of for loops.
