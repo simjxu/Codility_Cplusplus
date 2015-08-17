@@ -1,0 +1,13 @@
+#include <algorithm>
+int solution(vector<int> &A) {
+	// write your code in C++11
+	sort(A.begin(),A.end());
+	int N = A.size();
+	bool perm = 1;
+	for(int i=1;i<=N;i++)
+	{
+    	if(A[i-1]!=i)
+        	perm = 0;
+	}
+	return perm;
+}
