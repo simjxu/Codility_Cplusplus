@@ -1,0 +1,28 @@
+#include <climits>
+int solution(vector<int> &A) {
+    // write your code in C++11
+    int length = A.size();
+    double min = INT_MAX; // or alternatively, std::numeric_limits<double>::max()
+    int mindx = 0;
+
+    for(int i=1;i<length;i++)
+    {
+        double ave = (A[i]+A[i-1])/2.0;
+        if(ave < min)
+        {
+            min = ave;
+            mindx = i-1;
+        }
+    }
+    
+    for(int i=2;i<length;i++)
+    {
+        double ave = (A[i]+A[i-1]+A[i-2])/3.0; 
+        if(ave < min)
+        {
+            min = ave;
+            mindx = i-2;
+        }
+    }
+    return mindx;
+}
