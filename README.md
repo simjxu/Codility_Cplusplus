@@ -2,50 +2,52 @@
 <!-- Use http://cssdeck.com/labs/learning-the-markdown-syntax for markdown syntax -->
 Solutions to all the codility problems written in C++
 
-**Time Complexity**  
--------------------
+####**Time Complexity**  
 [TapeEquilibrium](TapeEquilibrium)  
 [FrogJmp](FrogJmp)  
 [PermMissingElem](PermMissingElem)
 
-**Counting Elements**
----------------------
+####**Counting Elements**
+[FrogRiverOne](FrogRiverOne)  
+[PermCheck](PermCheck)  
+[MissingInteger](MissingInteger)
+[MaxCounters](MaxCounters)
 
-**Prefix Sums**
----------------
+####**Prefix Sums**
 
-**Sorting**
------------
 
-**Stacks and Queues**
----------------------
+####**Sorting**
 
-**Leader**
----------------------
 
-**Maximum Slice Problem**
----------------------
+####**Stacks and Queues**
 
-**Prime and Composite Numbers**
----------------------
 
-**Sieve of Eratosthenes**
----------------------
+####**Leader**
 
-**Euclidean Algorithm**
----------------------
 
-**Fibonacci Numbers**
----------------------
+####**Maximum Slice Problem**
 
-**Binary Search Algorithm**
----------------------
 
-**Caterpillar Method**
----------------------
+####**Prime and Composite Numbers**
 
-**Greedy Algorithms**
----------------------
 
-**Dynamic Programming**
----------------------
+####**Sieve of Eratosthenes**
+
+
+####**Euclidean Algorithm**
+
+
+####**Fibonacci Numbers**
+
+
+####**Binary Search Algorithm**
+
+
+####**Caterpillar Method**
+
+
+####**Greedy Algorithms**
+
+
+####**Dynamic Programming**
+
