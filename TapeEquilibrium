@@ -1,5 +1,4 @@
 int solution(vector<int> &A) {
-	// write your code in C++11
 	int sum = 0;
 	int newsum = 0;
 	int min = 999999;
