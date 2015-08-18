@@ -1,0 +1,14 @@
+#include <algorithm>
+int solution(vector<int> &A) {
+  // Because vector A is passed by reference, we can change its order
+  sort(A.begin(),A.end());
+  int length = A.size();
+  int left = left = A[0]*A[1]*A[length-1]; 
+  int right = A[length-1]*A[length-2]*A[length-3];;
+
+  if(left > right)
+  {
+      return left;
+  }
+  return right;
+}
