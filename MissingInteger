@@ -1,0 +1,31 @@
+#include <algorithm>
+int solution(vector<int> &A) {
+	// write your code in C++11
+	sort(A.begin(),A.end());
+	int num = 0;
+	int length = A.size();
+	int indx = 0;
+	for(int i=0;i<length;i++)
+	{
+    		if(A[i]>0)
+    		{
+        		indx = i;
+        		break;
+    		}
+	}
+	for(int i=indx;i<length;i++)
+	{
+    		if(A[i]!=num)
+    		{
+        		if(A[i]!=num+1)
+        		{
+            		return num+1;
+        		}
+        		else
+        		{
+            		num++;
+        		}
+    		}
+	}
+	return num+1;
+}
