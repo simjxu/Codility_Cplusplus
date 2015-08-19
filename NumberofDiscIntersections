@@ -1,0 +1,30 @@
+int solution(vector<int> &A) {
+    int length = A.size();
+    int arr1[length];
+    int arr2[length];
+    
+    for(int i=0;i<length;i++)
+    {
+        arr1[i]=i+A[i];
+        arr2[i]=i-A[i];
+    }
+    
+    sort(arr1,arr1+length);
+    sort(arr2,arr2+length);
+    
+    int upper_idx = 0;
+    int intersects = 0;
+    for(int i=0;i<length;i++)
+    {
+        while(upper_idx<length && arr1[i]>=arr2[upper_idx])
+        {
+            upper_idx++;
+            intersects += upper_idx-i-1;
+            if(intersects > 10000000)
+            {
+                return -1;
+            }
+        }
+    }
+    return intersects;
+}
