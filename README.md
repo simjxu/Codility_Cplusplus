@@ -10,7 +10,7 @@ Solutions to all the codility problems written in C++
 ####**Counting Elements**
 [FrogRiverOne](FrogRiverOne)  
 [PermCheck](PermCheck)  
-[MissingInteger](MissingInteger)
+[MissingInteger](MissingInteger)  
 [MaxCounters](MaxCounters)
 
 ####**Prefix Sums**
