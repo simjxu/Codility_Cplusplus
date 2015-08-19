@@ -13,7 +13,11 @@ Solutions to all the codility problems written in C++
 [MissingInteger](MissingInteger)  
 [MaxCounters](MaxCounters)
 
-####**Prefix Sums**
+####**Prefix Sums**  
+[CountDiv](CountDiv)  
+[PassingCars](PassingCars)  
+[MinAvgSlice](MinAvgSlice)  
+[GenomicRangeQuery](GenomicRangeQuery)  
 
 
 ####**Sorting**
