@@ -1,0 +1,21 @@
+int solution(string &S) {
+    
+    // count the number of open brackets
+    int count = 0; // 1
+    
+    // auto is used for type deduction
+    for(auto it = S.begin(); it != S.end(); it++) // 2
+    {
+        
+        // Using auto requires a pointer on the iterator
+        if(*it == '(')
+            count++;
+        if(*it == ')') // 3
+        {
+            if(!count)
+                return 0;
+            count--;
+        }
+    }
+    return count == 0 ? 1 : 0; // 4
+}
