@@ -19,9 +19,11 @@ Solutions to all the codility problems written in C++
 [MinAvgSlice](MinAvgSlice)  
 [GenomicRangeQuery](GenomicRangeQuery)  
 
-
 ####**Sorting**
-
+[MaxProductOfThree](MaxProductOfThree)  
+[Triangle](Triangle)  
+[Distinct](Distinct)  
+[NumberOfDiscIntersections](NumberOfDiscIntersections)  
 
 ####**Stacks and Queues**
 
