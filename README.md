@@ -3,7 +3,7 @@
 Solutions to all the codility problems written in C++
 
 ####**Time Complexity**  
-[TapeEquilibrium](TapeEquilibrum)  
+[TapeEquilibrium](TapeEquilibrium)  
 [FrogJmp](FrogJmp)  
 [PermMissingElem](PermMissingElem)
 
